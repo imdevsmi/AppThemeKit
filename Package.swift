@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "AppThemeKit", targets: ["AppThemeKit"])
     ],
     targets: [
-        .target(name: "AppThemeKit"),
+        .target(name: "AppThemeKit", resources: [.copy("PrivacyInfo.xcprivacy")]),
         .testTarget(name: "AppThemeKitTests", dependencies: ["AppThemeKit"])
     ]
 )

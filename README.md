@@ -103,6 +103,10 @@ All user-facing strings are looked up in your app's **main bundle**, with Englis
 | `system` / `light` / `dark` | System / Light / Dark |
 | `blue` / `purple` / `pink` / `red` / `orange` / `green` / `teal` | Color names |
 
+## Privacy
+
+AppThemeKit includes a privacy manifest (`PrivacyInfo.xcprivacy`). It collects no data and does no tracking. The only required reason API it uses is `UserDefaults` (reason `CA92.1`), to remember the chosen appearance and accent color.
+
 ## License
 
 AppThemeKit is available under the MIT license. See [LICENSE](LICENSE) for details.
